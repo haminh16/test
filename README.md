@@ -1,237 +1,313 @@
-<div class="content">
-    <h1>BÁO CÁO KIỂM THỬ API</h1>
-    <ol>
-        <p><strong>Tên Dự Án:</strong> Test Collection of APIs</p>
-        <p><strong>Ngày Kiểm Thử:</strong> 9/10/2026</p>
-        <p><strong>Người Kiểm Thử:</strong> Hà Lê Quang Minh</p>
-        <p><strong>1. Mục Tiêu Kiểm Thử:</strong> Sử dụng Postman để kiểm thử một API thực tế</p>
-        <p><strong>2. Môi Trường Kiểm Thử:</strong> Postman.</p>
-        <p><strong>3. Phương Pháp Kiểm Thử:</strong> Kiểm thử tự động và thủ công trên phần mềm Postman.</p>
-        4.
-         <strong>Kịch Bản Kiểm Thử Lần 1:</strong>
-            <ul>
-            <li><p>Tên Kịch Bản: Kiểm thử cơ bản của 1 URL</p></li>
-            <li><p>Mục Đích: Test khả năng hoạt động của URL và phần mềm Postman</p></li>
-            <li><p>Phương Thức HTTP (GET/POST/PUT/DELETE): GET</p></li>
-            <li><p>URL: https://jsonplaceholder.typicode.com/users</p></li>
-            <li><p>Tham Số: users?size=2&is_xml=true</p></li>
-            <li><p>Kết Quả Mong Đợi: Gửi yêu cầu thành công</p></li>
-            <li><p>Kết Quả Thực Tế: Đã gửi yêu cầu thành công</p></li>
-            <li><p>Trạng Thái: Thành công</p></li>
-            <li><p>Kết quả sau khi kiểm thử:</p></li>
-            <img width="468" alt="image" src="https://github.com/gtaAsian/New-Collection-of-APIs/assets/170786444/c340d30f-fea5-4f45-b752-369a1f066f80">
-            <li><p>Kết quả kiểm thử chi tiết:</p></li>
-            </ul>
-    
-    [
-        {  
-        
-            "id": 9209,
-            "uid": "61b0ecef-a169-49c1-9b7e-616aebe82641",
-            "password": "zWosu2p6UN",
-            "first_name": "Davis",
-            "last_name": "Hand",
-            "username": "davis.hand",
-            "email": "davis.hand@email.com",
-            "avatar": "https://robohash.org/corruptiutrepudiandae.png?size=300x300&set=set1",
-            "gender": "Genderfluid",
-            "phone_number": "+223 522.344.8113",
-            "social_insurance_number": "625916069",
-            "date_of_birth": "1978-03-23",
-            "employment": {
-                "title": "Sales Consultant",
-                "key_skill": "Problem solving"
-            },
-            "address": {
-                "city": "Port Sid",
-                "street_name": "Shizuko Unions",
-                "street_address": "7042 Mei Union",
-                "zip_code": "56023-6796",
-                "state": "Texas",
-                "country": "United States",
-                "coordinates": {
-                    "lat": 29.124815080601806,
-                    "lng": -52.01789697476312
-                }
-            },
-            "credit_card": {
-                "cc_number": "6771-8982-4885-7139"
-            },
-            "subscription": {
-                "plan": "Premium",
-                "status": "Active",
-                "payment_method": "Money transfer",
-                "term": "Monthly"
+# BÁO CÁO KIỂM THỬ API
+
+* **Tên Dự Án:** Test Collection of APIs
+* **Ngày Kiểm Thử:** 9/10/2026
+* **Người Kiểm Thử:** Hà Lê Quang Minh
+
+**1. Mục Tiêu Kiểm Thử:** Sử dụng Postman để kiểm thử một API thực tế
+**2. Môi Trường Kiểm Thử:** Postman.
+**3. Phương Pháp Kiểm Thử:** Kiểm thử tự động và thủ công trên phần mềm Postman.
+
+**4. Kịch Bản Kiểm Thử Lần 1:**
+
+* Tên Kịch Bản: Kiểm thử cơ bản của 1 URL
+* Mục Đích: Test khả năng hoạt động của URL và phần mềm Postman
+* Phương Thức HTTP (GET/POST/PUT/DELETE): GET
+* URL: https://jsonplaceholder.typicode.com/users
+* Tham Số: users?size=2&is_xml=true
+* Kết Quả Mong Đợi: Gửi yêu cầu thành công
+* Kết Quả Thực Tế: Đã gửi yêu cầu thành công
+* Trạng Thái: Thành công
+* Kết quả sau khi kiểm thử:
+![pic 1](Picture1.png)
+* Kết quả kiểm thử chi tiết:
+
+```json
+[
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "Bret",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
             }
         },
-        {
-            "id": 4506,
-            "uid": "1f8ef347-e420-4e50-8b66-8cf92ab6ad74",
-            "password": "RQpDo89cFw",
-            "first_name": "Trent",
-            "last_name": "Quitzon",
-            "username": "trent.quitzon",
-            "email": "trent.quitzon@email.com",
-            "avatar": "https://robohash.org/quibusdamautquisquam.png?size=300x300&set=set1",
-            "gender": "Genderqueer",
-            "phone_number": "+675 (698) 414-6258 x469",
-            "social_insurance_number": "193053717",
-            "date_of_birth": "1999-03-10",
-            "employment": {
-                "title": "Legal Administrator",
-                "key_skill": "Leadership"
-            },
-            "address": {
-                "city": "Schroederchester",
-                "street_name": "Macejkovic Via",
-                "street_address": "5634 Tyron Ferry",
-                "zip_code": "75541",
-                "state": "Alabama",
-                "country": "United States",
-                "coordinates": {
-                    "lat": 22.21205024489973,
-                    "lng": 139.04500158922622
-                }
-            },
-            "credit_card": {
-                "cc_number": "4409687671791"
-            },
-            "subscription": {
-                "plan": "Starter",
-                "status": "Pending",
-                "payment_method": "Apple Pay",
-                "term": "Full subscription"
-            }
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "Romaguera-Crona",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
         }
-    ]
-<div>    
-    <strong>Kịch Bản Kiểm Thử Lần 2:</strong>
-            <ul>
-            <li><p>Tên Kịch Bản: Kiểm thử cơ bản của một URL với một tham số</p></li>
-            <li><p>Mục Đích: Test khả năng hoạt động của URL và phần mềm Postman</p></li>
-            <li><p>Phương Thức HTTP (GET/POST/PUT/DELETE): GET</p></li>
-            <li><p>URL: https://random-data-api.com/api/v2/</p></li>
-            <li><p>Tham Số: beerType=light</p></li>
-            <li><p>Kết Quả Mong Đợi: Gửi yêu cầu thành công</p></li>
-            <li><p>Kết Quả Thực Tế: Gửi yêu cầu thất bại</p></li>
-            <li><p>Trạng Thái: Không thành công</p></li>
-            <li><p>Kết quả sau khi kiểm thử:</p></li>
-            <img width="468" alt="image" src="https://github.com/gtaAsian/New-Collection-of-APIs/assets/170786444/47657a68-c2ce-4826-80db-863977b71169">
-            <li><p>Kết quả kiểm thử chi tiết:</p></li>
-            </ul>
-
-
-    <!DOCTYPE html>
-    <html>
-    
-    <head>
-    
-        <title>The page you were looking for doesn't exist (404)</title>
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <style>
-            .rails-default-error-page {
-                background-color: #EFEFEF;
-                color: #2E2F30;
-                text-align: center;
-                font-family: arial, sans-serif;
-                margin: 0;
+    },
+    {
+        "id": 2,
+        "name": "Ervin Howell",
+        "username": "Antonette",
+        "email": "Shanna@melissa.tv",
+        "address": {
+            "street": "Victor Plains",
+            "suite": "Suite 879",
+            "city": "Wisokyburgh",
+            "zipcode": "90566-7771",
+            "geo": {
+                "lat": "-43.9509",
+                "lng": "-34.4618"
             }
-            
-            .rails-default-error-page div.dialog {
-                width: 95%;
-                max-width: 33em;
-                margin: 4em auto 0;
-            }
-    
-            .rails-default-error-page div.dialog>div {
-                border: 1px solid #CCC;
-                border-right-color: #999;
-                border-left-color: #999;
-                border-bottom-color: #BBB;
-                border-top: #B00100 solid 4px;
-                border-top-left-radius: 9px;
-                border-top-right-radius: 9px;
-                background-color: white;
-                padding: 7px 12% 0;
-                box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
-            }
-    
-            .rails-default-error-page h1 {
-                font-size: 100%;
-                color: #730E15;
-                line-height: 1.5em;
-            }
-    
-            .rails-default-error-page div.dialog>p {
-                margin: 0 0 1em;
-                padding: 1em;
-                background-color: #F7F7F7;
-                border: 1px solid #CCC;
-                border-right-color: #999;
-                border-left-color: #999;
-                border-bottom-color: #999;
-                border-bottom-left-radius: 4px;
-                border-bottom-right-radius: 4px;
-                border-top-color: #DADADA;
-                color: #666;
-                box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
-            }
-        </style>
-    </head>
-    <body class="rails-default-error-page">
-        <!-- This file lives in public/404.html -->
-        <div class="dialog">
-            <div>
-                <h1>The page you were looking for doesn't exist.</h1>
-                <p>You may have mistyped the address or the page may have moved.</p>
-            </div>
-            <p>If you are the application owner check the logs for more information.</p>
-        </div>
-    </body>
-
-    </html>
-<div>
-    <strong>Kịch Bản Kiểm Thử Lần 1:</strong>
-            <ul>
-            <li><p>Tên Kịch Bản: Kiểm thử cơ bản của 1 URL với một tham số truyền vào</p></li>
-            <li><p>Mục Đích: Test khả năng hoạt động của URL và phần mềm Postman</p></li>
-            <li><p>Phương Thức HTTP (GET/POST/PUT/DELETE): GET</p></li>
-            <li><p>URL: https://random-data-api.com/api/v2/</p></li>
-            <li><p>Tham Số: beerType=light</p></li>
-            <li><p>Kết Quả Mong Đợi: Gửi yêu cầu thành công</p></li>
-            <li><p>Kết Quả Thực Tế: Đã gửi yêu cầu thành công</p></li>
-            <li><p>Trạng Thái: Thành công</p></li>
-            <li><p>Kết quả sau khi kiểm thử:</p></li>
-            <img width="468" alt="image" src="https://github.com/gtaAsian/New-Collection-of-APIs/assets/170786444/4704b95c-115c-4e24-aa8a-2aeee5339fba">
-            <li><p>Kết quả kiểm thử chi tiết:</p></li>
-            </ul>
-</div>
-
-        {
-            "id": 4908,
-            "uid": "16d508f9-8757-491d-b8c9-4b980932f637",
-            "brand": "Leffe",
-            "name": "Sapporo Premium",
-            "style": "Strong Ale",
-            "hop": "Newport",
-            "yeast": "1098 - British Ale",
-            "malts": "Roasted barley",
-            "ibu": "82 IBU",
-            "alcohol": "2.1%",
-            "blg": "12.8°Blg"
+        },
+        "phone": "010-692-6593 x09125",
+        "website": "anastasia.net",
+        "company": {
+            "name": "Deckow-Crist",
+            "catchPhrase": "Proactive didactic contingency",
+            "bs": "synergize scalable supply-chains"
         }
-        
-<p><strong>5. Kết Quả Kiểm Thử:</strong> Tóm tắt kết quả kiểm thử, bao gồm số lượng kịch bản kiểm thử đã chạy, số lượng thành công, số lượng thất bại, và tỷ lệ thành công.</p>
-<ul>
-<li><p>Số lượng kịch bản đã kiểm thử: 3</p></li>
-<li><p>Số lần thành công: 2</p></li>
-<li><p>Số lần thất bại: 1</p></li>
-<li><p>Tỉ lệ thành công: 75%</p></li>
-</ul>
-<p><strong>6. Phát Hiện Lỗi:</strong>  Chi tiết về lỗi, bao gồm:</p>
-<ul>
-<li><p>ID Lỗi: 404 Not Found</p></li>
-<li><p>Mô Tả Lỗi: Trang bạn đang tìm kiếm không tồn tại (404)</p></li>
-<li><p>Mức Độ Ảnh Hưởng: Không</p></li>
-<li><p>Ghi Chú/Đề Xuất: Sai URL và tham số</p></li>
-</ul>
+    },
+    {
+        "id": 3,
+        "name": "Clementine Bauch",
+        "username": "Samantha",
+        "email": "Nathan@yesenia.net",
+        "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157",
+            "geo": {
+                "lat": "-68.6102",
+                "lng": "-47.0653"
+            }
+        },
+        "phone": "1-463-123-4447",
+        "website": "ramiro.info",
+        "company": {
+            "name": "Romaguera-Jacobson",
+            "catchPhrase": "Face to face bifurcated interface",
+            "bs": "e-enable strategic applications"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Patricia Lebsack",
+        "username": "Karianne",
+        "email": "Julianne.OConner@kory.org",
+        "address": {
+            "street": "Hoeger Mall",
+            "suite": "Apt. 692",
+            "city": "South Elvis",
+            "zipcode": "53919-4257",
+            "geo": {
+                "lat": "29.4572",
+                "lng": "-164.2990"
+            }
+        },
+        "phone": "493-170-9623 x156",
+        "website": "kale.biz",
+        "company": {
+            "name": "Robel-Corkery",
+            "catchPhrase": "Multi-tiered zero tolerance productivity",
+            "bs": "transition cutting-edge web services"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Chelsey Dietrich",
+        "username": "Kamren",
+        "email": "Lucio_Hettinger@annie.ca",
+        "address": {
+            "street": "Skiles Walks",
+            "suite": "Suite 351",
+            "city": "Roscoeview",
+            "zipcode": "33263",
+            "geo": {
+                "lat": "-31.8129",
+                "lng": "62.5342"
+            }
+        },
+        "phone": "(254)954-1289",
+        "website": "demarco.info",
+        "company": {
+            "name": "Keebler LLC",
+            "catchPhrase": "User-centric fault-tolerant solution",
+            "bs": "revolutionize end-to-end systems"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Mrs. Dennis Schulist",
+        "username": "Leopoldo_Corkery",
+        "email": "Karley_Dach@jasper.info",
+        "address": {
+            "street": "Norberto Crossing",
+            "suite": "Apt. 950",
+            "city": "South Christy",
+            "zipcode": "23505-1337",
+            "geo": {
+                "lat": "-71.4197",
+                "lng": "71.7478"
+            }
+        },
+        "phone": "1-477-935-8478 x6430",
+        "website": "ola.org",
+        "company": {
+            "name": "Considine-Lockman",
+            "catchPhrase": "Synchronised bottom-line interface",
+            "bs": "e-enable innovative applications"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Kurtis Weissnat",
+        "username": "Elwyn.Skiles",
+        "email": "Telly.Hoeger@billy.biz",
+        "address": {
+            "street": "Rex Trail",
+            "suite": "Suite 280",
+            "city": "Howemouth",
+            "zipcode": "58804-1099",
+            "geo": {
+                "lat": "24.8918",
+                "lng": "21.8984"
+            }
+        },
+        "phone": "210.067.6132",
+        "website": "elvis.io",
+        "company": {
+            "name": "Johns Group",
+            "catchPhrase": "Configurable multimedia task-force",
+            "bs": "generate enterprise e-tailers"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Nicholas Runolfsdottir V",
+        "username": "Maxime_Nienow",
+        "email": "Sherwood@rosamond.me",
+        "address": {
+            "street": "Ellsworth Summit",
+            "suite": "Suite 729",
+            "city": "Aliyaview",
+            "zipcode": "45169",
+            "geo": {
+                "lat": "-14.3990",
+                "lng": "-120.7677"
+            }
+        },
+        "phone": "586.493.6943 x140",
+        "website": "jacynthe.com",
+        "company": {
+            "name": "Abernathy Group",
+            "catchPhrase": "Implemented secondary concept",
+            "bs": "e-enable extensible e-tailers"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Glenna Reichert",
+        "username": "Delphine",
+        "email": "Chaim_McDermott@dana.io",
+        "address": {
+            "street": "Dayna Park",
+            "suite": "Suite 449",
+            "city": "Bartholomebury",
+            "zipcode": "76495-3109",
+            "geo": {
+                "lat": "24.6463",
+                "lng": "-168.8889"
+            }
+        },
+        "phone": "(775)976-6794 x41206",
+        "website": "conrad.com",
+        "company": {
+            "name": "Yost and Sons",
+            "catchPhrase": "Switchable contextually-based project",
+            "bs": "aggregate real-time technologies"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Clementina DuBuque",
+        "username": "Moriah.Stanton",
+        "email": "Rey.Padberg@karina.biz",
+        "address": {
+            "street": "Kattie Turnpike",
+            "suite": "Suite 198",
+            "city": "Lebsackbury",
+            "zipcode": "31428-2261",
+            "geo": {
+                "lat": "-38.2386",
+                "lng": "57.2232"
+            }
+        },
+        "phone": "024-648-3804",
+        "website": "ambrose.net",
+        "company": {
+            "name": "Hoeger LLC",
+            "catchPhrase": "Centralized empowering task-force",
+            "bs": "target end-to-end models"
+        }
+    }
+]
+```
+
+**Kịch Bản Kiểm Thử Lần 2:**
+
+* Tên Kịch Bản: Kiểm thử cơ bản của một URL với một tham số
+* Mục Đích: Test khả năng hoạt động của URL và phần mềm Postman
+* Phương Thức HTTP (GET/POST/PUT/DELETE): GET
+* URL: https://jsonplaceholder.typicode.com/users
+* Tham Số: beerType=light
+* Kết Quả Mong Đợi: Gửi yêu cầu thành công
+* Kết Quả Thực Tế: gửi yêu cầu thành công
+* Trạng Thái: thành công
+* Kết quả sau khi kiểm thử:
+* ![pic 2](Picture2.png)
+* Kết quả kiểm thử chi tiết:
+
+```json
+{
+    {
+    "name": "Ha Minh",
+    "job": "QA Engineer",
+    "id": 11
+}
+}
+
+```
+
+
+**Kịch Bản Kiểm Thử Lần 1:**
+
+* Tên Kịch Bản: Kiểm thử cơ bản của 1 URL với một tham số truyền vào
+* Mục Đích: Test khả năng hoạt động của URL và phần mềm Postman
+* Phương Thức HTTP (GET/POST/PUT/DELETE): GET
+* URL: [[https://random-data-api.com/api/v2/](https://random-data-api.com/api/v2/)](https://jsonplaceholder.typicode.com/users)
+* Tham Số: beerType=light
+* Kết Quả Mong Đợi: Gửi yêu cầu thành công
+* Kết Quả Thực Tế: Đã gửi yêu cầu thành công
+* Trạng Thái: Thành công
+* Kết quả sau khi kiểm thử:
+* ![pic 3](Picture3.png)
+* Kết quả chạy tự động toàn bộ Collection. Công cụ Runner báo cáo Passed 4/4 test cases, không có request nào bị lỗi (0 Errors).
+
+
+**5. Kết Quả Kiểm Thử:** Tóm tắt kết quả kiểm thử, bao gồm số lượng kịch bản kiểm thử đã chạy, số lượng thành công, số lượng thất bại, và tỷ lệ thành công.
+
+* Số lượng kịch bản đã kiểm thử: 3
+* Số lần thành công: 3
+* Số lần thất bại: 0
+* Tỉ lệ thành công: 100%
+
+**6. Phát Hiện Lỗi:**  Chi tiết về lỗi, bao gồm:
+
+* ID Lỗi: 404 Not Found
+* Mô Tả Lỗi: Trang bạn đang tìm kiếm không tồn tại (404)
+* Mức Độ Ảnh Hưởng: Không
+* Ghi Chú/Đề Xuất: Sai URL và tham số
